@@ -1,0 +1,24 @@
+.btn-main {
+  background-color: #557c9b;
+  border-radius: 25px;
+  border: none;
+  padding: .375rem 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  &:hover {
+    background-color: #103f64;
+  }
+}
+
+.btn-main[disabled] {
+  background-color: #b7bdc1;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn-exit {
+  background-color: #6E050C;
+}
